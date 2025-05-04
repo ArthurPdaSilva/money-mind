@@ -31,7 +31,18 @@ export const Home = () => {
         Money Mind
       </Typography>
 
-      <Grid container columns={3} spacing={2} sx={{ width: "100%", mt: 6 }}>
+      <Grid
+        container
+        columns={3}
+        spacing={{
+          lg: 8,
+          xl: 8,
+          md: 8,
+          sm: 2,
+          xs: 2,
+        }}
+        sx={{ width: "100%", mt: 6 }}
+      >
         <Grid
           size={{
             xs: 3,

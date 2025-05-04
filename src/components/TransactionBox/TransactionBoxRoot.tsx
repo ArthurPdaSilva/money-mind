@@ -13,6 +13,7 @@ export const TransactionBoxRoot = ({
         flexDirection: "column",
         justifyContent: "center",
         p: 2,
+        borderRadius: ".5rem",
       }}
     >
       {children}

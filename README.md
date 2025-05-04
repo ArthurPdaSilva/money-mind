@@ -51,6 +51,7 @@ Um app com:
 - Autenticação
 - Persistência com banco de dados
 - Gráficos e relatórios avançados
+- Dark Mode
 
 ---
 
