@@ -80,25 +80,6 @@ type Transaction = {
 
 ---
 
-## 📂 Organização Inicial do Projeto
-
-```
-src/
-├── components/
-│   ├── TransactionForm.tsx
-│   ├── TransactionTable.tsx
-├── hooks/
-│   └── useTransactions.ts
-├── pages/
-│   └── Home.tsx
-├── utils/
-│   └── storage.ts
-├── App.tsx
-└── index.tsx
-```
-
----
-
 ## 🧪 MVP — Primeiro Objetivo
 
 Entregar uma versão funcional com:
