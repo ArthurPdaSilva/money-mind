@@ -20,6 +20,9 @@ dependencies:
   biome:
     specifier: ^0.3.3
     version: 0.3.3
+  export-to-csv:
+    specifier: ^1.4.0
+    version: 1.4.0
   material-react-table:
     specifier: ^3.2.1
     version: 3.2.1(@emotion/react@11.14.0)(@emotion/styled@11.14.0)(@mui/icons-material@7.0.2)(@mui/material@7.0.2)(@mui/x-date-pickers@8.2.0)(react-dom@19.1.0)(react@19.1.0)
@@ -29,6 +32,9 @@ dependencies:
   react-dom:
     specifier: ^19.0.0
     version: 19.1.0(react@19.1.0)
+  react-number-format:
+    specifier: ^5.4.4
+    version: 5.4.4(react-dom@19.1.0)(react@19.1.0)
   zustand:
     specifier: ^5.0.4
     version: 5.0.4(@types/react@19.1.2)(react@19.1.0)
@@ -2082,6 +2088,11 @@ packages:
     engines: {node: '>=0.10.0'}
     dev: false
 
+  /export-to-csv@1.4.0:
+    resolution: {integrity: sha512-6CX17Cu+rC2Fi2CyZ4CkgVG3hLl6BFsdAxfXiZkmDFIDY4mRx2y2spdeH6dqPHI9rP+AsHEfGeKz84Uuw7+Pmg==}
+    engines: {node: ^v12.20.0 || >=v14.13.0}
+    dev: false
+
   /express-rate-limit@7.5.0(express@5.1.0):
     resolution: {integrity: sha512-eB5zbQh5h+VenMPM3fh+nw1YExi5nMr6HUCR62ELSP11huvxm/Uir1H1QEyTkk5QX6A58pX6NmaTMceKZ0Eodg==}
     engines: {node: '>= 16'}
@@ -3036,6 +3047,16 @@ packages:
 
   /react-is@19.1.0:
     resolution: {integrity: sha512-Oe56aUPnkHyyDxxkvqtd7KkdQP5uIUfHxd5XTb3wE9d/kRnZLmKbDB0GWk919tdQ+mxxPtG6EAs6RMT6i1qtHg==}
+    dev: false
+
+  /react-number-format@5.4.4(react-dom@19.1.0)(react@19.1.0):
+    resolution: {integrity: sha512-wOmoNZoOpvMminhifQYiYSTCLUDOiUbBunrMrMjA+dV52sY+vck1S4UhR6PkgnoCquvvMSeJjErXZ4qSaWCliA==}
+    peerDependencies:
+      react: ^0.14 || ^15.0.0 || ^16.0.0 || ^17.0.0 || ^18.0.0 || ^19.0.0
+      react-dom: ^0.14 || ^15.0.0 || ^16.0.0 || ^17.0.0 || ^18.0.0 || ^19.0.0
+    dependencies:
+      react: 19.1.0
+      react-dom: 19.1.0(react@19.1.0)
     dev: false
 
   /react-refresh@0.17.0:

@@ -1,6 +1,7 @@
 import { Box, Grid, Typography } from "@mui/material";
 import { TransactionBox } from "../components/TransactionBox";
 import { TransactionForm } from "../components/TransactionForm";
+import { TransactionTable } from "../components/TransactionTable";
 import { theme } from "../theme";
 
 export const Home = () => {
@@ -69,6 +70,7 @@ export const Home = () => {
         </Grid>
       </Grid>
       <TransactionForm />
+      <TransactionTable />
     </Box>
   );
 };

@@ -15,9 +15,11 @@
     "@mui/icons-material": "^7.0.2",
     "@mui/material": "^7.0.2",
     "biome": "^0.3.3",
+    "export-to-csv": "^1.4.0",
     "material-react-table": "^3.2.1",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
+    "react-number-format": "^5.4.4",
     "zustand": "^5.0.4"
   },
   "devDependencies": {

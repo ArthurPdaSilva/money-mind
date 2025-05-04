@@ -21,7 +21,18 @@ export const Balance = () => {
         <AttachMoneyRoundedIcon color="success" />
       </Box>
 
-      <Typography variant="h5" sx={{ fontWeight: "bold", color: "black" }}>
+      <Typography
+        variant="h5"
+        sx={{
+          fontWeight: "bold",
+          color:
+            balance > 0
+              ? "success.main"
+              : balance < 0
+              ? "error.main"
+              : "text.primary",
+        }}
+      >
         R${" "}
         {balance.toLocaleString("pt-BR", {
           minimumFractionDigits: 2,
