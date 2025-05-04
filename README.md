@@ -41,17 +41,16 @@ Um app com:
 
 ### ✅ Essenciais
 
-- [] Cadastro de **ganhos e gastos**
-- [] Visualização de **saldo total**
-- [] Histórico de transações com ordenação
-- [] Interface **limpa** e responsiva (MUI)
+- [x] Cadastro de **ganhos e gastos**
+- [x] Visualização de **saldo total**
+- [x] Histórico de transações com ordenação
+- [x] Interface **limpa** e responsiva (MUI)
 
 ### 🔒 Fora do escopo (por enquanto)
 
 - Autenticação
-- Persistência com postgre
+- Persistência com banco de dados
 - Gráficos e relatórios avançados
-- Classificação por categorias
 
 ---
 
